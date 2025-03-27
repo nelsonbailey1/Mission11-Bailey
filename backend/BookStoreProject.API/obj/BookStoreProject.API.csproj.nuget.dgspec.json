@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/Users/nelsonbailey/Desktop/BYU/Winter 2025—IS Core/IS 413/Mission 11—Bailey/backend/BookStoreProject.API/BookStoreProject.API.csproj": {}
+    "/Users/nelsonbailey/Desktop/BYU/Winter 2025—IS Core/IS 413/Mission 12—Bailey/backend/BookStoreProject.API/BookStoreProject.API.csproj": {}
   },
   "projects": {
-    "/Users/nelsonbailey/Desktop/BYU/Winter 2025—IS Core/IS 413/Mission 11—Bailey/backend/BookStoreProject.API/BookStoreProject.API.csproj": {
+    "/Users/nelsonbailey/Desktop/BYU/Winter 2025—IS Core/IS 413/Mission 12—Bailey/backend/BookStoreProject.API/BookStoreProject.API.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/nelsonbailey/Desktop/BYU/Winter 2025—IS Core/IS 413/Mission 11—Bailey/backend/BookStoreProject.API/BookStoreProject.API.csproj",
+        "projectUniqueName": "/Users/nelsonbailey/Desktop/BYU/Winter 2025—IS Core/IS 413/Mission 12—Bailey/backend/BookStoreProject.API/BookStoreProject.API.csproj",
         "projectName": "BookStoreProject.API",
-        "projectPath": "/Users/nelsonbailey/Desktop/BYU/Winter 2025—IS Core/IS 413/Mission 11—Bailey/backend/BookStoreProject.API/BookStoreProject.API.csproj",
+        "projectPath": "/Users/nelsonbailey/Desktop/BYU/Winter 2025—IS Core/IS 413/Mission 12—Bailey/backend/BookStoreProject.API/BookStoreProject.API.csproj",
         "packagesPath": "/Users/nelsonbailey/.nuget/packages/",
-        "outputPath": "/Users/nelsonbailey/Desktop/BYU/Winter 2025—IS Core/IS 413/Mission 11—Bailey/backend/BookStoreProject.API/obj/",
+        "outputPath": "/Users/nelsonbailey/Desktop/BYU/Winter 2025—IS Core/IS 413/Mission 12—Bailey/backend/BookStoreProject.API/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/nelsonbailey/.nuget/NuGet/NuGet.Config"

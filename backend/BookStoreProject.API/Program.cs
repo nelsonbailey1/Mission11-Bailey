@@ -13,7 +13,17 @@ builder.Services.AddSwaggerGen();
 builder.Services.AddDbContext<BookStoreDbContext>(options =>
     options.UseSqlite(builder.Configuration.GetConnectionString("BookStoreConnection")));
 
-builder.Services.AddCors();
+builder.Services.AddCors(options =>
+{
+    options.AddPolicy("AllowFrontend",
+        policy =>
+        {
+            policy.WithOrigins("http://localhost:3011")
+                .AllowCredentials()
+                .AllowAnyHeader()
+                .AllowAnyMethod();
+        });
+});
 
 var app = builder.Build();
 
@@ -24,7 +34,7 @@ if (app.Environment.IsDevelopment())
     app.UseSwaggerUI();
 }
 
-app.UseCors(x => x.WithOrigins("http://localhost:3011"));
+app.UseCors("AllowFrontend");
 
 app.UseHttpsRedirection();
 

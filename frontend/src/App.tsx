@@ -1,14 +1,24 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
 import './App.css'
-import BookList from './BookList'
+import BookstorePage from './pages/BookstorePage'
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import CheckoutPage from './pages/CheckoutPage';
+import CartPage from './pages/CartPage';
+import { CartProvider } from './context/CartContext';
 
 function App() {
 
   return (
     <>
-      <BookList/>
+    <CartProvider>
+      <Router>
+        <Routes>
+          <Route path='/' element={<BookstorePage/>}/>
+          <Route path='/checkout/:title/:bookID/:price' element={<CheckoutPage/>} />
+          <Route path='/cart' element={<CartPage/>} />
+        </Routes>
+      </Router>
+    </CartProvider>
+
     </>
   )
 }

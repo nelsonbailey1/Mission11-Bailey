@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "PjhH/onRNO8=",
+  "dgSpecHash": "7bWxJCknUAw=",
   "success": true,
-  "projectFilePath": "/Users/nelsonbailey/Desktop/BYU/Winter 2025—IS Core/IS 413/Mission 11—Bailey/backend/BookStoreProject.API/BookStoreProject.API.csproj",
+  "projectFilePath": "/Users/nelsonbailey/Desktop/BYU/Winter 2025—IS Core/IS 413/Mission 12—Bailey/backend/BookStoreProject.API/BookStoreProject.API.csproj",
   "expectedPackageFiles": [
     "/Users/nelsonbailey/.nuget/packages/humanizer/2.14.1/humanizer.2.14.1.nupkg.sha512",
     "/Users/nelsonbailey/.nuget/packages/humanizer.core/2.14.1/humanizer.core.2.14.1.nupkg.sha512",
