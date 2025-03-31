@@ -14,5 +14,5 @@ public class Book
     public string Classification { get; set; }
     public string Category { get; set; }
     public int PageCount { get; set; }
-    public int Price { get; set; }
+    public string Price { get; set; }
 }

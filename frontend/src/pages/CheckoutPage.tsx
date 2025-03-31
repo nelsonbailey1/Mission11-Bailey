@@ -26,7 +26,7 @@ function CheckoutPage () {
             <h2>{title}</h2>
 
             <div>
-                <label>${price}.00</label>
+                <label>${price}</label>
                 <br />
                 <button className='btn btn-success' onClick={handelAddToCart}>Add to Cart</button>
             </div>
