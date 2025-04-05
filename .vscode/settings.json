@@ -1,0 +1,4 @@
+{
+    "appService.defaultWebAppToDeploy": "undefined/subscriptions/08bb2693-743a-49f3-998a-cb3899e6f821/resourceGroups/appsvc_windows_centralus/providers/Microsoft.Web/sites/Bookstore-Bailey-Backend",
+    "appService.deploySubpath": "backend/BookStoreProject.API/publish"
+}

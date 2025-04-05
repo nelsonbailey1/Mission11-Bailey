@@ -524,3 +524,10 @@
 /Users/nelsonbailey/Desktop/BYU/Winter 2025—IS Core/IS 413/Mission 12—Bailey/backend/BookStoreProject.API/obj/Debug/net8.0/BookStoreProject.API.pdb
 /Users/nelsonbailey/Desktop/BYU/Winter 2025—IS Core/IS 413/Mission 12—Bailey/backend/BookStoreProject.API/obj/Debug/net8.0/BookStoreProject.API.genruntimeconfig.cache
 /Users/nelsonbailey/Desktop/BYU/Winter 2025—IS Core/IS 413/Mission 12—Bailey/backend/BookStoreProject.API/obj/Debug/net8.0/ref/BookStoreProject.API.dll
+/Users/nelsonbailey/Desktop/BYU/Winter 2025—IS Core/IS 413/Mission 12—Bailey/backend/BookStoreProject.API/bin/Debug/net8.0/Bookstore.sqlite
+/Users/nelsonbailey/Desktop/BYU/Winter 2025—IS Core/IS 413/Mission 12—Bailey/backend/BookStoreProject.API/bin/Debug/net8.0/publish/web.config
+/Users/nelsonbailey/Desktop/BYU/Winter 2025—IS Core/IS 413/Mission 12—Bailey/backend/BookStoreProject.API/bin/Debug/net8.0/publish/appsettings.Development.json
+/Users/nelsonbailey/Desktop/BYU/Winter 2025—IS Core/IS 413/Mission 12—Bailey/backend/BookStoreProject.API/bin/Debug/net8.0/publish/appsettings.json
+/Users/nelsonbailey/Desktop/BYU/Winter 2025—IS Core/IS 413/Mission 12—Bailey/backend/BookStoreProject.API/bin/Debug/net8.0/publish/BookStoreProject.API.deps.json
+/Users/nelsonbailey/Desktop/BYU/Winter 2025—IS Core/IS 413/Mission 12—Bailey/backend/BookStoreProject.API/bin/Debug/net8.0/publish/BookStoreProject.API.runtimeconfig.json
+/Users/nelsonbailey/Desktop/BYU/Winter 2025—IS Core/IS 413/Mission 12—Bailey/backend/BookStoreProject.API/bin/Debug/net8.0/publish/BookStoreProject.API.staticwebassets.endpoints.json

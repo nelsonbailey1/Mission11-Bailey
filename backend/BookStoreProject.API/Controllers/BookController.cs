@@ -44,7 +44,7 @@ namespace BookStoreProject.API.Controllers
             var library = new
             {
                 Books = dbBooks,
-                TotalBooks = totalBooks
+                totalNumBooks = totalBooks
             };
             
             return Ok(library);
@@ -60,6 +60,51 @@ namespace BookStoreProject.API.Controllers
             
             return Ok(bookCategories);
 
+        }
+
+        [HttpPost("AddBook")]
+        public IActionResult AddBook([FromBody] Book newBook)
+        {
+            _context.Books.Add(newBook);
+            _context.SaveChanges();
+            
+            return Ok();
+        }
+
+        [HttpPut("UpdateBook/{BookId}")]
+        public IActionResult UpdateBook(int BookID, [FromBody] Book updatedBook)
+        {
+            var existingBook = _context.Books.Find(BookID);
+            existingBook.Title = updatedBook.Title;
+            existingBook.Price = updatedBook.Price;
+            existingBook.Author = updatedBook.Author;
+            existingBook.Category = updatedBook.Category;
+            existingBook.Publisher = updatedBook.Publisher;
+            existingBook.ISBN = updatedBook.ISBN;
+            existingBook.Classification = updatedBook.Classification;
+            existingBook.PageCount = updatedBook.PageCount;
+            
+            _context.Books.Update(existingBook);
+            _context.SaveChanges();
+            
+            return Ok(existingBook);
+        }
+        
+        [HttpDelete("DeleteBook/{BookId}")]
+        public IActionResult DeleteBook(int BookId)
+        {
+            var book = _context.Books.Find(BookId);
+
+            if (book == null)
+            {
+                return NotFound(new { message = "Book not found." });
+            }
+            
+            _context.Books.Remove(book);
+            
+            _context.SaveChanges();
+            
+            return NoContent();
         }
     }
 }

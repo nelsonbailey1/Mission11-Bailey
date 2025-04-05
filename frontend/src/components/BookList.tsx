@@ -1,33 +1,38 @@
 import { useEffect, useState } from "react";
 import { Book } from "../types/Book";
 import { useNavigate } from "react-router-dom";
+import { fetchBooks } from "../api/BooksAPI";
 
 function BookList({selectedCategories}: {selectedCategories: string[] }) {
     const [books, setBooks] = useState<Book[]>([]);
     const [pageSize, setPageSize] = useState<number>(5);
     const [pageNum, setPageNum] = useState<number>(1);
-    const [totalItems, setTotalItems] = useState<number>(0);
     const [totalPages, setTotalPages] = useState<number>(0);
     const [sortAscending, setSortAscending] = useState<boolean>(true);
     const [sortedBooks, setSortedBooks] = useState<Book[]>([]);
     const navigate = useNavigate();
+    const [error, setError] = useState<string | null>(null);
+    const [loading, setLoading] = useState(true);
 
     useEffect(() => {
-        const fetchBooks = async () => {
-            const categoryParams = selectedCategories.map((cat) => `Categories=${encodeURIComponent(cat)}`).join('&');
-            const response = await fetch(
-                `https://localhost:5011/api/Book?pageSize=${pageSize}&pageNum=${pageNum}${selectedCategories.length ? `&${categoryParams}` : ''}`,
-                {
-                    credentials: "include"
-                }
-            );
-            const data = await response.json();
-            setBooks(data.books);
-            setTotalItems(data.totalBooks);
-            setTotalPages(Math.ceil(data.totalBooks / pageSize));
+        const loadBooks = async () => {
+
+            try {
+                setLoading(true);
+                const data = await fetchBooks(pageSize, pageNum, selectedCategories);
+                
+                setBooks(data.books);
+                setTotalPages(Math.ceil(data.totalNumBooks / pageSize));
+            } catch (error) {
+                setError((error as Error).message);
+            } finally {
+                setLoading(false);
+            }
+
+
         };
 
-        fetchBooks();
+        loadBooks();
     }, [pageSize, pageNum, selectedCategories]);
 
     const sortBooks = () => {
@@ -43,6 +48,9 @@ function BookList({selectedCategories}: {selectedCategories: string[] }) {
     useEffect(() => {
         setSortedBooks(books);
     }, [books]);
+
+    if (loading) return <p>Loading Books...</p>
+    if (error) return <p className="text-red-500">Error: {error}</p>
 
     return (
         <div style={{ maxWidth: '1000px', margin: '2rem auto', padding: '1rem' }}>
