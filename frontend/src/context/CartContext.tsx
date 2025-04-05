@@ -1,4 +1,3 @@
-import { useSearchParams } from "react-router-dom";
 import { CartItem } from "../types/CartItem";
 import { ReactNode, createContext, useContext, useState } from "react";
 

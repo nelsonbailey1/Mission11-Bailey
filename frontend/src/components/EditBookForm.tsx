@@ -1,5 +1,4 @@
 import { useState } from "react";
-import { useSearchParams } from "react-router-dom";
 import { Book } from "../types/Book";
 import { updateBook } from "../api/BooksAPI";
 
