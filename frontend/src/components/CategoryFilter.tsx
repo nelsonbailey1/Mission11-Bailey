@@ -9,9 +9,12 @@ function CategoryFilter({
 
     const [categories, setCategories] = useState<string[]>([]);
 
+    const API_URL = 'https://bookstore-bailey-backend.azurewebsites.net/api';
+
+
     useEffect(() => {
         const fetchCategories = async () => {
-            const response = await fetch("https://localhost:5011/api/Book/GetBookCategories")
+            const response = await fetch(`${API_URL}/Book/GetBookCategories`)
             const data = await response.json();
             setCategories(data);
         }
