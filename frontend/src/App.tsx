@@ -1,26 +1,22 @@
-import './App.css'
-import BookstorePage from './pages/BookstorePage'
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
-import CheckoutPage from './pages/CheckoutPage';
-import CartPage from './pages/CartPage';
-import { CartProvider } from './context/CartContext';
+import HomePage from './pages/HomePage';
+import EntertainersPage from './pages/EntertainersPage';
+import EntertainerDetailPage from './pages/EntertainerDetailPage';
+import AddEntertainerPage from './pages/AddEntertainerPage';
+import NavBar from './components/NavBar';
 
 function App() {
-
   return (
-    <>
-    <CartProvider>
-      <Router>
-        <Routes>
-          <Route path='/' element={<BookstorePage/>}/>
-          <Route path='/checkout/:title/:bookID/:price' element={<CheckoutPage/>} />
-          <Route path='/cart' element={<CartPage/>} />
-        </Routes>
-      </Router>
-    </CartProvider>
-
-    </>
-  )
+    <Router>
+      <NavBar /> {/* ✅ Add it here */}
+      <Routes>
+        <Route path="/" element={<HomePage />} />
+        <Route path="/entertainers" element={<EntertainersPage />} />
+        <Route path="/entertainers/new" element={<AddEntertainerPage />} />
+        <Route path="/entertainers/:id" element={<EntertainerDetailPage />} />
+      </Routes>
+    </Router>
+  );
 }
 
-export default App
+export default App;

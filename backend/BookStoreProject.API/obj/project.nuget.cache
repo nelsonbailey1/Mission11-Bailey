@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "7bWxJCknUAw=",
+  "dgSpecHash": "MA9kfTgXyCY=",
   "success": true,
-  "projectFilePath": "/Users/nelsonbailey/Desktop/BYU/Winter 2025—IS Core/IS 413/Mission 12—Bailey/backend/BookStoreProject.API/BookStoreProject.API.csproj",
+  "projectFilePath": "/Users/nelsonbailey/Desktop/BYU/Winter 2025—IS Core/IS 413/Final/Mission11-Bailey/backend/BookStoreProject.API/BookStoreProject.API.csproj",
   "expectedPackageFiles": [
     "/Users/nelsonbailey/.nuget/packages/humanizer/2.14.1/humanizer.2.14.1.nupkg.sha512",
     "/Users/nelsonbailey/.nuget/packages/humanizer.core/2.14.1/humanizer.core.2.14.1.nupkg.sha512",
@@ -69,15 +69,15 @@
     "/Users/nelsonbailey/.nuget/packages/microsoft.codeanalysis.razor/6.0.24/microsoft.codeanalysis.razor.6.0.24.nupkg.sha512",
     "/Users/nelsonbailey/.nuget/packages/microsoft.codeanalysis.scripting.common/4.8.0/microsoft.codeanalysis.scripting.common.4.8.0.nupkg.sha512",
     "/Users/nelsonbailey/.nuget/packages/microsoft.codeanalysis.workspaces.common/4.8.0/microsoft.codeanalysis.workspaces.common.4.8.0.nupkg.sha512",
-    "/Users/nelsonbailey/.nuget/packages/microsoft.data.sqlite.core/8.0.14/microsoft.data.sqlite.core.8.0.14.nupkg.sha512",
+    "/Users/nelsonbailey/.nuget/packages/microsoft.data.sqlite.core/8.0.15/microsoft.data.sqlite.core.8.0.15.nupkg.sha512",
     "/Users/nelsonbailey/.nuget/packages/microsoft.diasymreader/2.0.0/microsoft.diasymreader.2.0.0.nupkg.sha512",
     "/Users/nelsonbailey/.nuget/packages/microsoft.dotnet.scaffolding.shared/8.0.7/microsoft.dotnet.scaffolding.shared.8.0.7.nupkg.sha512",
-    "/Users/nelsonbailey/.nuget/packages/microsoft.entityframeworkcore/8.0.14/microsoft.entityframeworkcore.8.0.14.nupkg.sha512",
-    "/Users/nelsonbailey/.nuget/packages/microsoft.entityframeworkcore.abstractions/8.0.14/microsoft.entityframeworkcore.abstractions.8.0.14.nupkg.sha512",
-    "/Users/nelsonbailey/.nuget/packages/microsoft.entityframeworkcore.analyzers/8.0.14/microsoft.entityframeworkcore.analyzers.8.0.14.nupkg.sha512",
-    "/Users/nelsonbailey/.nuget/packages/microsoft.entityframeworkcore.relational/8.0.14/microsoft.entityframeworkcore.relational.8.0.14.nupkg.sha512",
-    "/Users/nelsonbailey/.nuget/packages/microsoft.entityframeworkcore.sqlite/8.0.14/microsoft.entityframeworkcore.sqlite.8.0.14.nupkg.sha512",
-    "/Users/nelsonbailey/.nuget/packages/microsoft.entityframeworkcore.sqlite.core/8.0.14/microsoft.entityframeworkcore.sqlite.core.8.0.14.nupkg.sha512",
+    "/Users/nelsonbailey/.nuget/packages/microsoft.entityframeworkcore/8.0.15/microsoft.entityframeworkcore.8.0.15.nupkg.sha512",
+    "/Users/nelsonbailey/.nuget/packages/microsoft.entityframeworkcore.abstractions/8.0.15/microsoft.entityframeworkcore.abstractions.8.0.15.nupkg.sha512",
+    "/Users/nelsonbailey/.nuget/packages/microsoft.entityframeworkcore.analyzers/8.0.15/microsoft.entityframeworkcore.analyzers.8.0.15.nupkg.sha512",
+    "/Users/nelsonbailey/.nuget/packages/microsoft.entityframeworkcore.relational/8.0.15/microsoft.entityframeworkcore.relational.8.0.15.nupkg.sha512",
+    "/Users/nelsonbailey/.nuget/packages/microsoft.entityframeworkcore.sqlite/8.0.15/microsoft.entityframeworkcore.sqlite.8.0.15.nupkg.sha512",
+    "/Users/nelsonbailey/.nuget/packages/microsoft.entityframeworkcore.sqlite.core/8.0.15/microsoft.entityframeworkcore.sqlite.core.8.0.15.nupkg.sha512",
     "/Users/nelsonbailey/.nuget/packages/microsoft.extensions.apidescription.server/6.0.5/microsoft.extensions.apidescription.server.6.0.5.nupkg.sha512",
     "/Users/nelsonbailey/.nuget/packages/microsoft.extensions.caching.abstractions/8.0.0/microsoft.extensions.caching.abstractions.8.0.0.nupkg.sha512",
     "/Users/nelsonbailey/.nuget/packages/microsoft.extensions.caching.memory/8.0.1/microsoft.extensions.caching.memory.8.0.1.nupkg.sha512",
@@ -144,10 +144,7 @@
     "/Users/nelsonbailey/.nuget/packages/system.text.json/7.0.3/system.text.json.7.0.3.nupkg.sha512",
     "/Users/nelsonbailey/.nuget/packages/system.threading.channels/7.0.0/system.threading.channels.7.0.0.nupkg.sha512",
     "/Users/nelsonbailey/.nuget/packages/system.threading.tasks.dataflow/7.0.0/system.threading.tasks.dataflow.7.0.0.nupkg.sha512",
-    "/Users/nelsonbailey/.nuget/packages/system.windows.extensions/7.0.0/system.windows.extensions.7.0.0.nupkg.sha512",
-    "/Users/nelsonbailey/.nuget/packages/microsoft.netcore.app.ref/8.0.12/microsoft.netcore.app.ref.8.0.12.nupkg.sha512",
-    "/Users/nelsonbailey/.nuget/packages/microsoft.aspnetcore.app.ref/8.0.12/microsoft.aspnetcore.app.ref.8.0.12.nupkg.sha512",
-    "/Users/nelsonbailey/.nuget/packages/microsoft.netcore.app.host.osx-arm64/8.0.12/microsoft.netcore.app.host.osx-arm64.8.0.12.nupkg.sha512"
+    "/Users/nelsonbailey/.nuget/packages/system.windows.extensions/7.0.0/system.windows.extensions.7.0.0.nupkg.sha512"
   ],
   "logs": []
 }

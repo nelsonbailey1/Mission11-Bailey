@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/Users/nelsonbailey/Desktop/BYU/Winter 2025—IS Core/IS 413/Mission 12—Bailey/backend/BookStoreProject.API/BookStoreProject.API.csproj": {}
+    "/Users/nelsonbailey/Desktop/BYU/Winter 2025—IS Core/IS 413/Final/Mission11-Bailey/backend/BookStoreProject.API/BookStoreProject.API.csproj": {}
   },
   "projects": {
-    "/Users/nelsonbailey/Desktop/BYU/Winter 2025—IS Core/IS 413/Mission 12—Bailey/backend/BookStoreProject.API/BookStoreProject.API.csproj": {
+    "/Users/nelsonbailey/Desktop/BYU/Winter 2025—IS Core/IS 413/Final/Mission11-Bailey/backend/BookStoreProject.API/BookStoreProject.API.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/nelsonbailey/Desktop/BYU/Winter 2025—IS Core/IS 413/Mission 12—Bailey/backend/BookStoreProject.API/BookStoreProject.API.csproj",
+        "projectUniqueName": "/Users/nelsonbailey/Desktop/BYU/Winter 2025—IS Core/IS 413/Final/Mission11-Bailey/backend/BookStoreProject.API/BookStoreProject.API.csproj",
         "projectName": "BookStoreProject.API",
-        "projectPath": "/Users/nelsonbailey/Desktop/BYU/Winter 2025—IS Core/IS 413/Mission 12—Bailey/backend/BookStoreProject.API/BookStoreProject.API.csproj",
+        "projectPath": "/Users/nelsonbailey/Desktop/BYU/Winter 2025—IS Core/IS 413/Final/Mission11-Bailey/backend/BookStoreProject.API/BookStoreProject.API.csproj",
         "packagesPath": "/Users/nelsonbailey/.nuget/packages/",
-        "outputPath": "/Users/nelsonbailey/Desktop/BYU/Winter 2025—IS Core/IS 413/Mission 12—Bailey/backend/BookStoreProject.API/obj/",
+        "outputPath": "/Users/nelsonbailey/Desktop/BYU/Winter 2025—IS Core/IS 413/Final/Mission11-Bailey/backend/BookStoreProject.API/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/nelsonbailey/.nuget/NuGet/NuGet.Config"
@@ -37,8 +37,7 @@
           "enableAudit": "true",
           "auditLevel": "low",
           "auditMode": "direct"
-        },
-        "SdkAnalysisLevel": "9.0.100"
+        }
       },
       "frameworks": {
         "net8.0": {
@@ -72,20 +71,6 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "downloadDependencies": [
-            {
-              "name": "Microsoft.AspNetCore.App.Ref",
-              "version": "[8.0.12, 8.0.12]"
-            },
-            {
-              "name": "Microsoft.NETCore.App.Host.osx-arm64",
-              "version": "[8.0.12, 8.0.12]"
-            },
-            {
-              "name": "Microsoft.NETCore.App.Ref",
-              "version": "[8.0.12, 8.0.12]"
-            }
-          ],
           "frameworkReferences": {
             "Microsoft.AspNetCore.App": {
               "privateAssets": "none"
@@ -94,7 +79,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/9.0.102/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.406/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

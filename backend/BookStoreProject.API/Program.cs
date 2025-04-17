@@ -13,6 +13,9 @@ builder.Services.AddSwaggerGen();
 builder.Services.AddDbContext<BookStoreDbContext>(options =>
     options.UseSqlite(builder.Configuration.GetConnectionString("BookStoreConnection")));
 
+builder.Services.AddDbContext<EntertainmentAgencyDbContext>(options =>
+    options.UseSqlite(builder.Configuration.GetConnectionString("EntertainmentAgencyConnection")));
+
 builder.Services.AddCors(options =>
 {
     options.AddPolicy("AllowFrontend",
@@ -41,5 +44,7 @@ app.UseHttpsRedirection();
 app.UseAuthorization();
 
 app.MapControllers();
+
+app.UseDeveloperExceptionPage(); 
 
 app.Run();
